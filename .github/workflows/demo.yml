@@ -1,10 +1,10 @@
 # demo.yaml
-# This workflow will install Python dependencies, run tests with a variety of Python versions
 name: Python app
 on:
 push:
 branches: [ "main" ]
 pull_request:
+branches: [ "main" ]
 jobs:
 build:
 runs-on: ubuntu-latest
@@ -17,7 +17,7 @@ steps:
 - name: Set up Python ${{ matrix.python-version }}
 uses: actions/setup-python@v3
 with:
-python-version: ${{ matrix.python-version }}
+python-version: ${{ matrix.python-version}}
 - name: Install dependencies
 run: |
 make install
