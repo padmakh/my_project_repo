@@ -20,4 +20,4 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: | 
-          pip install -r requirements.txt
+          pip install -r /Users/padmakh/Documents/titanic_model_api/requirements.txt
