@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r my_project_repo/titanic_model_api/requirements.txt
+          pip install -r titanic_model_api/requirements.txt
 
       - name: Train pipeline
         run: | 
