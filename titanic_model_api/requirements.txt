@@ -3,7 +3,7 @@ fastapi>=0.64.0,<1.0.0
 requests>=2.23.0,<2.24.0
 pydantic
 pydantic-settings
-joblib==1.4.2
+joblib
 numpy>=1.21.0,<2.0.0
 pandas==2.2.3
 pydantic==2.10.5
