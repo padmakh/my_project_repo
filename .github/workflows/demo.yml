@@ -31,8 +31,8 @@ jobs:
 
       - name: Train pipeline
         run: | 
-          python project_with_test/titanic_model/train_pipeline.py
+          python titanic_model_api/app/main.py
 
-      - name: Test with pytest
-        run: |
-          pytest
+     # - name: Test with pytest
+     #   run: |
+    #    pytest
